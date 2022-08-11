@@ -11,27 +11,6 @@
 # length > 0, and the sum of the lengths of any two sides must be
 # greater than the length of the third side.
 
-# input: Creating a new traingle object with 3 integer arguments
-# output: string
-# rules:
-  # (above)
-# Examples:
-  # we need at Triangle class
-  # we need a constructor (two helper methods)
-    # take 3 arguments - verify all sides are greater than 0, otherwise raises ArgumentError
-    # verify that it is a valid triangle - otherwise raises ArgumentError
-# Data structure:
-  # array
-
-# Algorithm:
-  # Contructor verifies validity of triangle with two helper methods
-    # greater_than_zero?
-      # returns true if a single side is greater than 0, otherwise AE
-    # valid_triangle?
-      # compare all three sides
-        #
-  # kind method determines type by comparing sides
-
 class Triangle
   def initialize(s1, s2, s3)
     @sides = [s1, s2, s3]
