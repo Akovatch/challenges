@@ -1,4 +1,4 @@
-# Robot Name - Not too hard for a medium...
+# Robot Name
 
 # Write a program that manages robot factory settings.
 

@@ -1,4 +1,4 @@
-# Clock - be careful...only one class method is necessary
+# Clock
 
 # Create a clock that is independent of date.
 
