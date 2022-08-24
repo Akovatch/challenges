@@ -31,20 +31,6 @@
 # => 5 + 9
 # => 14
 
-# input: string
-# output: integer
-# tests
-  # need Scrabble class, pass string in at init, #score
-  # whitespaces, nil, empty str, return 0
-  # case insensitive
-# algorithm:
-  # set iv @word to string
-  # create conversion hash
-  # within #score
-    # iterate through chars of string - for each char
-      # iterate through SCORES hash
-        # if a key has a letter, add the value to the results hash
-
 SCORES = {
   'aeioulnrst' => 1,
   'dg' => 2,

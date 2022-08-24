@@ -40,26 +40,6 @@
 # Write a program that can tell whether a number is perfect,
 # abundant, or deficient.
 
-# input: integer
-# output: string
-# rules:
-  # REQUIRED:
-    # PerfectNumber class + #classify CLASS method
-    # StandardError is raiseed by #classify
-    # argument (num) is passed to #classify
-  # positive numbers only, greater than 0
-  # the number itself does not count as a divisor
-  # prime numbers are always deficient
-# algorithm:
-  # initialize results array
-  # create an array of all divisors
-    # interate from 1 up to num
-      # push any divisors (% == 0) into array
-  # sum the array
-  # compare sum to og number
-
-  # Helper method: return the proper string
-
 class PerfectNumber
   def self.classify(num)
     raise StandardError, 'Invalid input' if num <= 0

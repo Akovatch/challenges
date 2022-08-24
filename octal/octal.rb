@@ -45,17 +45,6 @@
 # = 128   + 24    + 3
 # = 155
 
-# input: string number
-# output: integer
-# rules:
-  # REQUIRED: Octal class, #to_decimal method
-  # return 0 for invalid input (including 8 and 9 digits)
-# algorithm:
-  # validate input by checking digits (helper method?)
-  # convert to decimal number
-    # iterate (times) |counter|
-      # pop and multiply by 8^counter
-
 class Octal
   def initialize(octal_num)
     @octal_num = octal_num

@@ -11,24 +11,6 @@
 # 3 or 5, we get 3, 5, 6, 9, 10, 12, 15, and 18. The sum
 # of these multiples is 78.
 
-# input: integer representing
-# output:
-# required: (class method will instantiate an object and call # methods)
-  # SumOfMultiples class
-  # #initialize that takes one or more multiples as arguments
-    # NOTE: variable number of arguments ([] and *)
-  # ::to class method that takes a limit only
-  # #to method that takes a limit
-# rules:
-  # if not set is given, use 3 and 5
-# algorithm:
-  # #to
-    # init result array
-    # iterate from 1 - limit (#each)
-      # nested iteration
-        # number evenly divisible by a divisor
-    # return sum of result array
-
 class SumOfMultiples
   def initialize(*divisors)
     @divisors = (divisors.size > 0) ? divisors : [3, 5]
